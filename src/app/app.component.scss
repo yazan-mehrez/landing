@@ -1,0 +1,128 @@
+* {
+  text-align: right;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'CairoBold', sans-serif;
+}
+
+p {
+  font-size: 1.5em;
+  font-family: 'Cairo', sans-serif;
+}
+
+.app-img {
+  width: 10rem;
+}
+
+.heading {
+  display: inline-block;
+  padding: 5px 30px;
+  border-radius: 35px;
+  color: #fff;
+}
+
+.bg-green {
+  background: #008647;
+}
+
+.bg-red {
+  background: #fc020c;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.small-text {
+  font-size: 0.850em !important;
+}
+
+a {
+  color: #008747;
+}
+
+.logo {
+  width: 200px;
+  position: absolute;
+  bottom: -80px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: -4px 10px 14px 3px #d2d1d1;
+}
+
+.soon {
+  h1 {
+    color: #fc020c;
+  }
+}
+
+.social {
+  color: #008647;
+
+  .social-list {
+    text-align: center;
+    font-size: 2em;
+
+    i {
+      margin: 0 10px;
+    }
+  }
+}
+
+.cart1 {
+  position: absolute;
+  left: -50px;
+  top: 20%;
+}
+
+.cart2 {
+  position: absolute;
+  right: -50px;
+}
+
+@media (max-width: 767px) {
+  .cart1, .cart2 {
+    position: relative;
+    margin-bottom: 3em;
+  }
+}
+
+@media (max-width: 425px) {
+  .cart1, .cart2 {
+    display: none;
+  }
+
+  .text-justify{
+    text-align: right !important;
+  }
+
+  .logo {
+    left: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .logo {
+    width: 160px !important;
+    left: 1rem;
+  }
+
+  h1{
+    font-size: 2rem !important;
+  }
+}
+
+  @media (max-width: 320px) {
+    .logo {
+      width: 145px !important;
+      left: 10px;
+
+    }
+
+    h1{
+      font-size: 2rem !important;
+    }
+
+  }

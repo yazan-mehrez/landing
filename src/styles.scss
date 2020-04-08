@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap";
+
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+@font-face {
+  font-family: 'Cairo';
+  src: url('assets/Cairo-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'CairoBold';
+  src: url('assets/Cairo-SemiBold.ttf');
+}
